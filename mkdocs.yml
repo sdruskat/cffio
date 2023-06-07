@@ -1,11 +1,18 @@
 site_name: Citation File Format
+
+# Metadata and links
 copyright: Copyright &copy; 2017 - 2023 Stephan Druskat
 repo_url: https://github.com/citation-file-format
 repo_name: CFF org
+
 theme:
   name: material
+  
+  # Icon for repo_url link
   icon:
     repo: fontawesome/brands/github
+  
+  custom_dir: overrides
   
   # Colors
   palette:
