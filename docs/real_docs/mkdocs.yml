@@ -4,7 +4,7 @@ site_name: Citation File Format
 copyright: Copyright &copy; 2017 - 2023 Stephan Druskat
 repo_url: https://github.com/citation-file-format
 repo_name: CFF org
-site_url: https://sdruskat.net/cffio/
+site_url: https://sdruskat.net/cffio/real_docs/
 
 theme:
   name: material
@@ -13,7 +13,7 @@ theme:
   icon:
     repo: fontawesome/brands/github
   
-  custom_dir: overrides
+  custom_dir: ../../overrides
   
   # Colors
   palette:
