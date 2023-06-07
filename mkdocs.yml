@@ -1,4 +1,67 @@
-site_name: My Docs
+site_name: Citation File Format
+copyright: Copyright &copy; 2017 - 2023 Stephan Druskat
+repo_url: https://github.com/citation-file-format
+repo_name: CFF org
 theme:
   name: material
+  icon:
+    repo: fontawesome/brands/github
+  
+  # Colors
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: teal
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  # Fonts
+  # font:
+    # text: <Anything from https://fonts.google.com/>
+
+  # Logos
+  # logo: assets/logo.png
+  # favicon: images/favicon.png
+
+  # Navigation
+  features:
+    # - navigation.instant  # search across whole site
+    - navigation.tracking  # anchors in URL
+    - navigation.tabs  # h1 as menu tabs
+    - navigation.tabs.sticky  # h1 as menu tabs
+    - navigation.sections  # Sections rendered on the same level in navigation, could be better for navigation
+    - search.suggest
+    - search.highlight
+    - navigation.footer
+
+plugins:
+  - social
+  - search
+  # - blog:  # 
+  #     blog_toc: true
+
+extra:
+  version:  # Versioning! See https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/#versioning
+    provider: mike
+
+  # Social links in footer
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/citation-file-format/citation-file-format
+      name: Source code
+
+# Markdown extensions
+markdown_extensions:
+  - admonition
 
