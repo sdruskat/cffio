@@ -1,10 +1,14 @@
 site_name: Citation File Format
+
+# Theme configuration
 theme:
   name: material
+
   palette:
 
     # Palette toggle for light mode
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
@@ -12,10 +16,14 @@ theme:
       primary: deep purple
 
     # Palette toggle for dark mode
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
 
       primary: deep purple
 
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
