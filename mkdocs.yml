@@ -1,5 +1,14 @@
 site_name: Citation File Format
 
+nav:
+  - About:
+    - About: about/index.md
+  - Documentation:
+    - Schema guide: documentation/index.md
+    - Tutorials: tutorials/index.md
+  - Templates: templates.md
+  - Create CFF file: create.md
+  - Validate CFF file: validate.md
 # Theme configuration
 theme:
   name: material
@@ -27,3 +36,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.sections
+
+plugins:
+  - search
