@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <!-- Add scripts that need to run before here -->
+  {{ super() }}
+  {% if page and page.meta and page.meta.committee %}
+  <h2>{{ page.meta.committee.name }}</h2>
+  {% for member in page.meta.committee.members %}
+  <div class="md-profile md-post__profile">
+    <span class="md-author md-author--long">
+        <img src="../../_assets/images/{{ member.photo }}.png" alt="Photo of {{ member.name }}" />
+    </span>
+    <span class="md-profile__description">
+        <strong>{{ member.name }}</strong>{% if member.role %} - {{ member.role }}{% endif %}
+        {% if member.affiliation %}<br/>{{ member.affiliation }}{% endif %}
+        {% if member.email %}<br/><a href="mailto:{{ member.email }}">{{ member.email }}</a>{% endif %}
+         <br />
+    </span>
+  </div>
+  <br/>
+  {% endfor %}
+  {% endif %}
+{% endblock %}

@@ -1,8 +1,12 @@
 site_name: Citation File Format
+copyright: Copyright &copy; 2017 - 2023 The Citation File Format project
 
 nav:
   - About:
     - About: about/index.md
+    - Governance: about/governance/index.md
+    - Code of Conduct: about/governance/code-of-conduct.md
+    - Support: about/support.md
   - Documentation:
     - Schema guide: documentation/index.md
     - Tutorials: tutorials/index.md
@@ -12,6 +16,7 @@ nav:
 # Theme configuration
 theme:
   name: material
+  custom_dir: overrides
 
   palette:
 
@@ -37,6 +42,18 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
+    - navigation.footer
 
 plugins:
   - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/citation-file-format
+      name: The Citation File Format GitHub organization
