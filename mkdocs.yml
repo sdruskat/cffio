@@ -57,3 +57,6 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/citation-file-format
       name: The Citation File Format GitHub organization
+
+extra_css:
+  - stylesheets/extra.css

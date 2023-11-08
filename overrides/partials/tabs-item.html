@@ -62,14 +62,20 @@
 
   <!-- Navigation item -->
   {% else %}
+    {% if not "CFF" in nav_item.title %}
     <li class="{{ class }}">
-      {% if nav_item.meta.button %}
-        <a href="{{ nav_item.url | url }}" class="md-button md-button--primary md-tabs__link">
-      {% else %}
-        <a href="{{ nav_item.url | url }}" class="md-tabs__link">NO!
-      {% endif %}
+      <a href="{{ nav_item.url | url }}" class="md-tabs__link">
         {{ render_content(nav_item) }}
       </a>
     </li>
+    <!-- Render all navigation items with "CFF" in their title as "buttons" -->
+    {% else %}
+    <li class="{{ class + '-button' }}">
+      <a href="{{ nav_item.url | url }}" class="md-tabs__link">
+        <b>{{ render_content(nav_item) }}</b>
+      </a>
+    </li>
+    {% endif %}
+
   {% endif %}
 {% endmacro %}
