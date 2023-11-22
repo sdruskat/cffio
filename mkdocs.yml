@@ -15,6 +15,7 @@ nav:
   - Templates: templates.md
   - Create a CFF file: create.md
   - Validate your CFF file: validate.md
+  - Tools: tools.md
 # Theme configuration
 theme:
   name: material
