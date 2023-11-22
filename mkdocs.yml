@@ -49,6 +49,7 @@ theme:
 
 plugins:
   - search
+  - blog
 
 markdown_extensions:
   - admonition
