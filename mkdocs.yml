@@ -16,6 +16,7 @@ nav:
   - Create a CFF file: create.md
   - Validate your CFF file: validate.md
   - Tools: tools.md
+  - Blog: blog/index.md
 # Theme configuration
 theme:
   name: material
@@ -49,7 +50,17 @@ theme:
 
 plugins:
   - search
-  - blog
+  - blog:
+      blog_toc: true
+      archive: false
+  - rss:
+      match_path: blog/posts/.* 
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags 
+
 
 markdown_extensions:
   - admonition
