@@ -1,4 +1,4 @@
-site_name: Citation File Format
+site_name: Citation File Format (CFF)
 copyright: Copyright &copy; 2017 - 2023 The Citation File Format project
 
 nav:
@@ -13,8 +13,8 @@ nav:
     - Tutorials: tutorials/index.md
     - FAQ: documentation/faq.md
   - Templates: templates.md
-  - Create CFF file: create.md
-  - Validate CFF file: validate.md
+  - Create a CFF file: create.md
+  - Validate your CFF file: validate.md
 # Theme configuration
 theme:
   name: material
@@ -53,6 +53,8 @@ markdown_extensions:
   - admonition
   - attr_list
   - md_in_html
+  - toc:
+      permalink: true
 
 extra:
   social:
