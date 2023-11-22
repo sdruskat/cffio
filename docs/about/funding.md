@@ -1,5 +1,3 @@
-# (THIS SHOULD BE CALLED SOMETHING OTHER THAN) Support
-
 ## Current funding
 
 The Citation File Format project is currently funded by

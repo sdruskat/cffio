@@ -6,7 +6,7 @@ nav:
     - About: about/index.md
     - Governance: about/governance/index.md
     - Code of Conduct: about/governance/code-of-conduct.md
-    - Support: about/support.md
+    - Funding & support: about/funding.md
     - History: about/history.md
   - Documentation:
     - Schema guide: documentation/index.md
