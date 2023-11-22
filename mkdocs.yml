@@ -18,8 +18,7 @@ nav:
   - Tools: tools.md
   - Blog:
     - Blog: blog/index.md
-    # - Categories: blog/categories.md
-    # - Archive: blog/archive.md
+    - <span class="md-status md-status--rss"/> RSS Feed: feed_rss_created.xml
 # Theme configuration
 theme:
   name: material
@@ -50,6 +49,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.footer
+    - navigation.path
 
 plugins:
   - search
@@ -67,15 +67,25 @@ plugins:
 markdown_extensions:
   - admonition
   - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - md_in_html
   - toc:
       permalink: true
+  - pymdownx.snippets
+  - abbr
 
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/citation-file-format
       name: The Citation File Format GitHub organization
+    - icon: material/rss
+      link: feed_rss_created.xml
+      name: RSS feed for the blog
+  status:
+    rss: "Subscribe to the blog RSS feed!"
 
 extra_css:
   - stylesheets/extra.css
