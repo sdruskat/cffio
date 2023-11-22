@@ -1,8 +1,3 @@
----
-toc:
-  toc_depth: 0
----
-
 !!! faq "Question"
 
     ## What is CFF's relation with GitHub? Is CFF a GitHub format?
