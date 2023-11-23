@@ -13,7 +13,7 @@
         <img src="../../_assets/images/{{ member.photo }}.png" alt="Photo of {{ member.name }}" />
     </span>
     <span class="md-profile__description">
-        <strong>{{ member.name }}</strong>{% if member.role %} - {{ member.role }}{% endif %}
+        <strong>{{ member.name }}</strong>{% if member.role %} - <i>{{ member.role }}</i>{% endif %}
         {% if member.affiliation %}<br/>{{ member.affiliation }}{% endif %}
         {% if member.email %}<br/><a href="mailto:{{ member.email }}">{{ member.email }}</a>{% endif %}
          <br />
