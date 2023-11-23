@@ -1,2 +1,1 @@
-!!! question
-    Include the Markdown file from the governance repository (TODO: move file there from main CFF project)
+{{ external_markdown('https://raw.githubusercontent.com/citation-file-format/citation-file-format/main/CODE_OF_CONDUCT.md', '') }}
