@@ -1,6 +1,6 @@
 !!! faq "Question"
 
-    ## What is CFF's relation with GitHub? Is CFF a GitHub format?
+    ## What is CFF's relation with GitHub / Is CFF a GitHub format?
     
     The Citation File Format project is a **completely independent and open community project** with its own [governance](../governance).
 
