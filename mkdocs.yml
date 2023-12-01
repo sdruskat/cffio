@@ -89,6 +89,8 @@ extra:
       name: RSS feed for the blog
   status:
     rss: "Subscribe to the blog RSS feed!"
+  analytics:
+    provider: custom
 
 extra_css:
   - stylesheets/extra.css
