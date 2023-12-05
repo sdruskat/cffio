@@ -40,6 +40,9 @@ committee:
 ---
 # Governance of the Citation File Format project
 
+!!! todo
+    Add content once the governance document is agreed upon.
+
 ## Overview
 
 ## Project structure
