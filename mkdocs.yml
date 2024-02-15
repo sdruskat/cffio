@@ -6,6 +6,7 @@ nav:
     - Background: about/index.md
     - Project: about/project.md
     - Governance: about/governance/index.md
+    - Steering committee: about/governance/steering-committee.md
     - Code of Conduct: about/governance/code-of-conduct.md
     - Funding & support: about/funding.md
     - History: about/history.md
