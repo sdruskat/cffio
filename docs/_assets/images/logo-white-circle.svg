@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="74mm"
+   height="74mm"
+   viewBox="0 0 74 74"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#919191"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-85.190004,-75.551)">
+    <circle
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:0.325142;paint-order:stroke fill markers"
+       id="path1"
+       cx="122.19"
+       cy="112.551"
+       r="37" />
+    <g
+       id="g1"
+       transform="matrix(1.0027313,0,0,1.0027313,13.136202,5.8979874)">
+      <rect
+         style="fill:#6d33a6;fill-opacity:1;fill-rule:evenodd;stroke-width:0.279361;paint-order:stroke fill markers"
+         id="rect4-8"
+         width="11.906256"
+         height="24.960747"
+         x="142.67661"
+         y="100.467"
+         transform="matrix(1,0,-0.52999909,0.84799821,0,0)" />
+      <path
+         id="rect4-8-5-5"
+         style="fill:#8751bd;fill-opacity:1;fill-rule:evenodd;stroke-width:0.257255;paint-order:stroke fill markers"
+         d="m 101.83151,107.68541 -12.40235,19.84376 h 11.90625 l 12.40235,-19.84376 z" />
+      <rect
+         style="fill:#5e308c;fill-opacity:1;fill-rule:evenodd;stroke-width:0.279361;paint-order:stroke fill markers"
+         id="rect4-8-5"
+         width="11.906256"
+         height="24.960747"
+         x="9.7234058"
+         y="-150.3885"
+         transform="matrix(1,0,-0.52999909,-0.84799821,0,0)" />
+      <path
+         id="rect4-8-5-5-2"
+         style="fill:#08b564;fill-opacity:1;fill-rule:evenodd;stroke-width:0.257255;paint-order:stroke fill markers"
+         d="M 115.88749,85.195833 103.48515,105.03958 H 115.3914 L 127.79374,85.195833 Z" />
+      <rect
+         style="fill:#04a45a;fill-opacity:1;fill-rule:evenodd;stroke-width:0.279361;paint-order:stroke fill markers"
+         id="rect4-8-5-5-2-5"
+         width="11.906256"
+         height="24.960747"
+         x="-74.546356"
+         y="100.467"
+         transform="matrix(-1,0,0.52999909,0.84799821,0,0)" />
+      <rect
+         style="fill:#018749;fill-opacity:1;fill-rule:evenodd;stroke-width:0.279361;paint-order:stroke fill markers"
+         id="rect4-8-5-5-2-5-7"
+         width="11.906256"
+         height="24.960747"
+         x="195.59328"
+         y="125.42774"
+         transform="matrix(1,0,-0.52999909,0.84799821,0,0)" />
+    </g>
+  </g>
+</svg>

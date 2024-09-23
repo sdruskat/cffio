@@ -12,7 +12,11 @@ nav:
     - History: about/history.md
   - Documentation:
     - Schema guide: documentation/index.md
-    - Tutorials: tutorials/index.md
+    - How-Tos:
+      - Create a CFF file: documentation/how-to/create-a-cff-file.md
+      - Validate a CFF file: documentation/how-to/validate-a-cff-file.md
+    - Tutorials: 
+      - Using Citation File Format files: documentation/tutorials/index.md
     - FAQ: documentation/faq.md
   - Templates: templates.md
   - Create a CFF file: create.md
@@ -25,6 +29,7 @@ nav:
 theme:
   name: material
   custom_dir: overrides
+  logo: _assets/images/logo-white-circle.svg
 
   palette:
 
@@ -35,7 +40,7 @@ theme:
         icon: material/brightness-7 
         name: Switch to dark mode
 
-      primary: deep purple
+      primary: custom
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -44,7 +49,7 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
-      primary: deep purple
+      primary: custom
 
   features:
     - navigation.tabs
