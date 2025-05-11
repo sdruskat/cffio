@@ -11,12 +11,12 @@ nav:
     - Funding & support: about/funding.md
     - History: about/history.md
   - Documentation:
-    - Schema guide: documentation/index.md
+    - Documentation: documentation/index.md
     - How-Tos:
       - Create a CFF file: documentation/how-to/create-a-cff-file.md
       - Validate a CFF file: documentation/how-to/validate-a-cff-file.md
-    - Tutorials: 
-      - Using Citation File Format files: documentation/tutorials/index.md
+    - Tutorial:
+      - Learn CFF: documentation/tutorial/index.md
     - FAQ: documentation/faq.md
   - Templates: templates.md
   - Create a CFF file: create.md

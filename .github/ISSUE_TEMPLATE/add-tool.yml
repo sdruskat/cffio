@@ -1,0 +1,73 @@
+name: "Add tool to tools catalogue"
+description: "I want to add a tool that works with CFF to be listed in the tools catalogue."
+title: "[New tool]: "
+labels: ["documentation"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for building a tool for the Citation File Format and sharing it with the community!
+
+        The [CFF tools catalogue](https://citation-file-format.github.io/tools) is a curated list of tools
+        on the Citation File Format website that allows you to share tools that you developed, and others to find them.
+
+        Via this issue template, you can send us the required information to add your tool to the catalogue.
+        Alternatively, you may file a pull request, adding the tool to [`tools.json`](https://github.com/citation-file-format/citation-file-format/tree/develop/docs/_assets/tools.json) yourself.
+
+        **Note:** You can optionally provide the URL of a `CITATION.cff` file that describes your tool.
+        Any additional information you provide will be used to override information from the CFF file for the vatalogue listing.
+
+  - id: "cff"
+    type: "input"
+    attributes:
+      label: "CFF file"
+      description: "The URL of a `CITATION.cff` file that describes your tool"
+      placeholder: "https://github.com/citation-file-format/citation-file-format/tree/develop/CITATION.cff"
+
+  - id: "name"
+    type: "input"
+    attributes:
+      label: "Name"
+      description: "The name of your tool"
+      placeholder: "Foobar Harvesting and Quux Deposit Plugin"
+
+  - id: "author"
+    type: "input"
+    attributes:
+      label: "Authors"
+      description: "The authors of the tool"
+      placeholder: "First Author, Second Author, Last Author"
+
+  - id: "description"
+    type: "textarea"
+    attributes:
+      label: "Description"
+      description: "A short description of your tool"
+      placeholder: "Convert `CITATION.cff` files to `tools.json` entries on the command line."
+
+  - id: "steps"
+    type: "dropdown"
+    attributes:
+      label: "Tasks"
+      description: "Tasks that your tool can perform"
+      multiple: true
+      options: ["create", "edit", "validate", "convert", "other (please describe in comment)"]
+
+  - id: "repository-url"
+    type: "input"
+    attributes:
+      label: "Repository"
+      description: "The link to the repository where users can find and inspect the source code of your plugin"
+      placeholder: "https://git.example.com/quux/hermes-plugin-quux"
+
+  - id: "impl-language"  # Language the tool is implemented in
+  - id: "user-language"  # Language the tool can be used from
+  - id: "os"  # Any restrictions on OS the tool can be used in
+  - id: "package-repository"  # Package repository the tool is available from
+
+  - id: "comments"
+    type: "textarea"
+    attributes:
+      label: "Comments"
+      description: "Any additional comments you would like to add"

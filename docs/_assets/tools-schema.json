@@ -1,0 +1,62 @@
+{
+    "type": "array",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "List of tools to work with the Citation File Format",
+    "uniqueItems": true,
+    "minItems": 1,
+    "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Name of the tool"
+        },
+        "author": {
+          "type": "string",
+          "description": "Authors of the tool"
+        },
+        "description": {
+          "type": "string",
+          "description": "A short description of the plugin"
+        },
+        "languages": {
+          "type": "array",
+          "description": "The programming language that the tool is implemented in, or can be used in",
+          "items": {
+            "type": "string",
+            "uniqueItems": true
+          }
+        },
+        "tasks": {
+          "type": "array",
+          "description": "CFF-related functiionality that this tool provides",
+          "items": {
+            "type": "string",
+            "uniqueItems": true,
+            "enum": [
+              "create",
+              "edit",
+              "validate",
+              "convert"
+            ]
+          }
+        },
+        "repository_url": {
+          "type": "string",
+          "description": "Link to the repository where users can find and inspect the source code of the tool",
+          "format": "uri"
+        },
+        "governance": {
+          "type": "boolean",
+          "description": "Whether this tool is maintained by the Citation FIle Format project"
+        }
+      },
+      "required": [
+        "name",
+        "author",
+        "repository_url"
+      ]
+    }
+  }
+  
