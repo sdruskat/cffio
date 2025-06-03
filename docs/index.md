@@ -6,13 +6,19 @@
 The **Citation File Format (CFF)** is a format for plain text `CITATION.cff` files with human- and machine-readable **citation information for software** (and datasets).
 You can include `CITATION.cff` files in your repositories to let others know how to correctly cite your software.
 
-[Create a `CITATION.cff` file](#){ .md-button .md-button--primary } 
-[Learn more](documentation){ .md-button }
+<span id="example">The following is an example of a simple `CITATION.cff` file.</span>
+
+{!_assets/simple-cff-example.md!}
+
+[Create your own `CITATION.cff` file](create){ .md-button .md-button--primary } 
+[Learn more](documentation/){ .md-button }
 
 <!-- Add after "Create" button once available on cffinit, add blank lines between buttons
 [Validate a `CITATION.cff` file](#){ .md-button .md-button--primary }  
 -->
-<br/>
+
+---
+
 
 
 # The Citation File Format project
@@ -27,7 +33,12 @@ The Citation File Format makes it easier for research software engineers and res
 - creating a welcoming and inclusive **community**, where we work equitably and are valued, to help each other and achieve our goals; and
 - **advocating** for better software citation practice.
 
-This work is important because, when software is cited, 1) research software becomes part of the scholarly record, and 2) the people that create the software receive credit for their work. Citing software also creates provenance for research and enables reproducibility.
+This work is important because, when software is cited, 
+
+1. research **software becomes part of the scholarly record**, and 
+2. the people that create the software receive **credit** for their work. 
+
+Citing software also creates **provenance** for research and enables **reproducibility**.
 
 ## Scope
 

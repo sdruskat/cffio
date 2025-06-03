@@ -84,6 +84,8 @@ markdown_extensions:
   - pymdownx.snippets
   - abbr
   - footnotes
+  - markdown_include.include:
+        base_path: docs
 
 extra:
   social:
