@@ -1,16 +1,29 @@
 # Citation File Format (CFF) Documentation
 
-This is the documentation for the Citation File Format (CFF).
+There are different kinds of documentation for the Citation File Format (CFF).[^1]
 
-!!! info "Generate a `CITATION.cff` file"
-     If you don't want to read documentation, but instead dive right in and create a `CITATION.cff` file, you can use the [**Citation File Format Generator, *cffinit***](https://citation-file-format.github.io/cffinit).
+## Tutorial
 
-There are different kinds of documentation for CFF.[^1]
+***Learn in a practical way*** what the Citation File Format is and how you can use it.
 
-- **Tutorial:** ***Learn in a practical way*** what the Citation File Format is and how it can be used. :right_arrow: [Read the tutorial "Learn CFF"](tutorial).
-- **How-to guides:** :warning: TODO: Add diataxis aims | ***Follow practical guides*** that show you how to do a specific thing with CFF. :right_arrow: [Find out how-to do a specific thing with CFF](how-to).
-- **Schema reference:** ***Look up the fields*** that the CFF schema defines, and what values they can take. :right_arrow: [Use the schema reference](reference).
-- **Explanation:** :warning: TODO: find better word | :warning: TODO: Describe
+[Learn CFF by doing](tutorial){ .md-button .md-button--primary }
 
+## How-to guides
+
+***Follow practical step-by-step guides*** for doing specific things in CFF.
+
+[Explore how-to guides](how-to){ .md-button .md-button--primary }
+
+## Schema reference
+
+***Look up the keys and valid value options*** that the CFF schema defines.
+
+[Schema reference](reference){ .md-button .md-button--primary }
+
+## Background
+
+***Understand the Citation File Format*** through its aims, scope, basic assumptions, choices and concepts.
+
+[Understand the background for CFF](explanation){ .md-button .md-button--primary }
 
 [^1]: The documentation follows the Diátaxis approach to technical documentation. You can learn about this approach here: [diataxis.fr](https://diataxis.fr/).
