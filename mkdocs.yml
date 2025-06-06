@@ -90,8 +90,8 @@ markdown_extensions:
   - markdown_include.include:
         base_path: docs
 
-hooks:
-  - hooks/schema_version.py
+# hooks:
+#   - hooks/schema_version.py
 
 extra:
   social:
@@ -103,7 +103,7 @@ extra:
       name: RSS feed for the blog
   status:
     rss: "Subscribe to the blog RSS feed!"
-  schema_version: {schema_version}
+  # schema_version: {schema_version}
 
 extra_css:
   - stylesheets/extra.css

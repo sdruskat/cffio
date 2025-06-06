@@ -2,11 +2,11 @@
 
 There are different kinds of documentation for the Citation File Format (CFF).[^1]
 
-## Tutorial
+<!-- ## Tutorial
 
 ***Learn in a practical way*** what the Citation File Format is and how you can use it.
 
-[Learn CFF by doing](tutorial){ .md-button .md-button--primary }
+[Learn CFF by doing](tutorial){ .md-button .md-button--primary } -->
 
 ## How-to guides
 

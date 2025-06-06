@@ -43,3 +43,5 @@ Citing software also creates **provenance** for research and enables **reproduci
 ## Scope
 
 The Citation File Format project specifically focuses on citation metadata for software. Within this scope, development of the Citation File Format schema takes into account evolution and progress in software citation to implement good practices and the state of the art.
+
+[Learn more about the project](about/){ .md-button }
