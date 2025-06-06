@@ -13,3 +13,20 @@
   mask-image: var(--md-status--rss);
   -webkit-mask-image: var(--md-status--rss);
 }
+
+.todo-color {
+    color: lightblue
+}
+
+.doing-color {
+    color: goldenrod
+}
+
+.done-color {
+    color: green
+}
+
+.released-color {
+    /* color: blueviolet */
+    color: greenyellow
+}

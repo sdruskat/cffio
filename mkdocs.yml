@@ -25,6 +25,9 @@ nav:
   - Blog:
     - Blog: blog/index.md
     - <span class="md-status md-status--rss"/> RSS Feed: feed_rss_created.xml
+  - Development:
+    - Overview: development/index.md
+    - Roadmap: development/roadmap.md
 # Theme configuration
 theme:
   name: material
@@ -87,6 +90,9 @@ markdown_extensions:
   - markdown_include.include:
         base_path: docs
 
+hooks:
+  - hooks/schema_version.py
+
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -97,6 +103,7 @@ extra:
       name: RSS feed for the blog
   status:
     rss: "Subscribe to the blog RSS feed!"
+  schema_version: {schema_version}
 
 extra_css:
   - stylesheets/extra.css
