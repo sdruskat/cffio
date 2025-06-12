@@ -21,7 +21,7 @@ nav:
   - Templates: templates.md
   - Create a CFF file: create.md
   - Validate your CFF file: validate.md
-  - Tools: tools.md
+  - Tools & integrations: tools.md
   - Blog:
     - Blog: blog/index.md
     - <span class="md-status md-status--rss"/> RSS Feed: feed_rss_created.xml
