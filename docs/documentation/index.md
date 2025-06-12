@@ -10,6 +10,9 @@ There are different kinds of documentation for the Citation File Format (CFF).[^
 
 ## How-to guides
 
+!!! warning
+    TODO
+
 ***Follow practical step-by-step guides*** for doing specific things in CFF.
 
 [Explore how-to guides](how-to){ .md-button .md-button--primary }
@@ -22,8 +25,8 @@ There are different kinds of documentation for the Citation File Format (CFF).[^
 
 ## Background
 
-***Understand the Citation File Format*** through its aims, scope, basic assumptions, choices and concepts.
+***Understand the Citation File Format*** through its aims, scope, history, assumptions, choices and concepts.
 
-[Understand the background for CFF](explanation){ .md-button .md-button--primary }
+[Understand the background of CFF](../about/){ .md-button .md-button--primary }
 
 [^1]: The documentation follows the Diátaxis approach to technical documentation. You can learn about this approach here: [diataxis.fr](https://diataxis.fr/).
