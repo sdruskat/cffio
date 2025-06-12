@@ -7,8 +7,6 @@
 
 ## A brief history -->
 
-## Background
-
 Software is ubiquitous in research.
 Not only is it *used* to conduct research,
 it is also *created* specifically for this purpose in many cases.
@@ -33,7 +31,7 @@ can others fully understand your research and can attempt to reproduce its resul
 
 [^1]: If you want to learn more about software citation, we suggest you read about the [Software Citation Principles](https://doi.org/10.7717/peerj-cs.86).
 
-### Software citation needs metadata!
+## Software citation needs metadata!
 
 In order to cite the exact version of the software they have used in their research,
 researchers must have the **complete and correct metadata** for the software.
@@ -43,5 +41,17 @@ where all the relevant metadata is included.
 
 This is where the **Citation File Format** comes in:
 You can create a "title page" for your software by providing a `CITATION.cff` file for your software!
-If you *add this file* to your software's source code repository, *update it* for each new version and *ship it* with your software,
+If you *add this file* to your software's source code repository, 
+*update it* for each new version and 
+*ship it* with your software,
 users can use the metadata from this file to **cite the software correctly**!
+
+## Differences to other software metadata formats
+
+Differences between CFF and
+
+- CodeMeta
+- .bib
+
+!!! warning
+    TODO
