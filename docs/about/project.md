@@ -10,8 +10,8 @@ They are listed below.
 
 ## Subprojects
 
+!!! warning
+    TODO
+
 - **[cffconvert](): Conversion between CFF and other metadata formats (Python)**  
   Maintainer: Jurriaan H. Spaaks, Netherlands eScience Center, [@jspaaks]()
-
-!!! todo
-    Add projects once we know who remains.
