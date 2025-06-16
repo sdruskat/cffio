@@ -5,10 +5,12 @@ authors:
   - family-names: Druskat
     given-names: Stephan
     orcid: https://orcid.org/1234-5678-9101-1121
-title: "My Research Software"
+title: "ResearchSoftware"
 version: 2.0.4
 identifiers:
   - type: doi
     value: 10.5281/zenodo.1234
+    description: "Resolves to ResearchSoftware v2.0.4 published on Zenodo"
 date-released: 2021-08-11
+repository-code: https://git.example.org/research-software
 ```
