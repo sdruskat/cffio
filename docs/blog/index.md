@@ -1,2 +1,4 @@
-# Blog
+!!! success
+    Draft complete
 
+# Blog

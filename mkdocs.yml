@@ -13,10 +13,12 @@ nav:
     - Publications: about/publications.md
     - How to cite: about/how-to-cite.md
   - Documentation:
-    - Documentation: documentation/index.md
+    - Overview: documentation/index.md
     - How-Tos:
+      - Overview: documentation/how-to/index.md
       - Create a CFF file: documentation/how-to/create-a-cff-file.md
       - Validate a CFF file: documentation/how-to/validate-a-cff-file.md
+      - Work on CFF in your IDE: documentation/how-to/use-ide.md
     - Tutorial:
       - Learn CFF: documentation/tutorial/index.md
     - FAQ: documentation/faq.md

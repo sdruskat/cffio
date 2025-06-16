@@ -1,3 +1,6 @@
+!!! warning
+    Draft incomplete
+
 # Create, edit, validate `CITATION.cff` files in your IDE
 
 These how-tos show how to set up support for the Citation File Format in your IDE.

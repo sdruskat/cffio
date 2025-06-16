@@ -1,3 +1,6 @@
+!!! warning
+    Draft incomplete
+
 !!! faq "Question"
 
     ## What is CFF's relation with GitHub / Is CFF a GitHub format?

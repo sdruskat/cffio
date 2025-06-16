@@ -1,3 +1,6 @@
+!!! warning
+    Draft incomplete
+
 ## Schema
 
 | :material-sprout-outline: Output      | :material-file-document-outline: Description                          | :material-calendar-outline: Timeframe | :material-list-status: Status |

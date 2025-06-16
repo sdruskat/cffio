@@ -1,3 +1,6 @@
+!!! warning
+    Draft incomplete
+
 # Citation File Format (CFF) Documentation
 
 There are different kinds of documentation for the Citation File Format (CFF).[^1]
