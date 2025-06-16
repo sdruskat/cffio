@@ -3,6 +3,9 @@ authors:
   - name: Stephan Druskat
 ---
 
+!!! warning
+    Draft incomplete
+
 # A brief history of the Citation File Format
 
 ## Predecessors

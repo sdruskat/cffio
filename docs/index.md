@@ -1,7 +1,7 @@
 # Citation File Format
 
-!!! warning
-    This is a draft!
+!!! success
+    Draft complete
 
 The **Citation File Format (CFF)** is a format for plain text `CITATION.cff` files with human- and machine-readable **citation information for software** (and datasets).
 You can include `CITATION.cff` files in your repositories to let others know how to correctly cite your software.
@@ -44,4 +44,4 @@ Citing software also creates **provenance** for research and enables **reproduci
 
 The Citation File Format project specifically focuses on citation metadata for software. Within this scope, development of the Citation File Format schema takes into account evolution and progress in software citation to implement good practices and the state of the art.
 
-[Learn more about the project](about/){ .md-button }
+[Learn more about the project](about/project/){ .md-button }

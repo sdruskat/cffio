@@ -1,1 +1,4 @@
+!!! success
+    Draft complete
+
 {{ external_markdown('https://raw.githubusercontent.com/citation-file-format/citation-file-format/main/CODE_OF_CONDUCT.md', '') }}

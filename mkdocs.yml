@@ -10,6 +10,8 @@ nav:
     - Code of Conduct: about/governance/code-of-conduct.md
     - Funding & support: about/funding.md
     - History: about/history.md
+    - Publications: about/publications.md
+    - How to cite: about/how-to-cite.md
   - Documentation:
     - Documentation: documentation/index.md
     - How-Tos:
@@ -19,15 +21,15 @@ nav:
       - Learn CFF: documentation/tutorial/index.md
     - FAQ: documentation/faq.md
   - Templates: templates.md
-  - Create a CFF file: create.md
-  - Validate your CFF file: validate.md
+  # - Create a CFF file: create.md
+  # - Validate your CFF file: validate.md
   - Tools & integrations: tools.md
-  - Blog:
-    - Blog: blog/index.md
-    - <span class="md-status md-status--rss"/> RSS Feed: feed_rss_created.xml
   - Development:
     - Overview: development/index.md
     - Roadmap: development/roadmap.md
+  - Blog:
+    - Blog: blog/index.md
+    - <span class="md-status md-status--rss"/> RSS Feed: feed_rss_created.xml
 # Theme configuration
 theme:
   name: material

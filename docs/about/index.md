@@ -1,11 +1,7 @@
 # About the Citation File Format (CFF)
 
-<!-- !!! question
-    Should there be something else here than history?
-
-## (Background?)
-
-## A brief history -->
+!!! warning
+    Draft incomplete
 
 Software is ubiquitous in research.
 Not only is it *used* to conduct research,
@@ -46,9 +42,39 @@ If you *add this file* to your software's source code repository,
 *ship it* with your software,
 users can use the metadata from this file to **cite the software correctly**!
 
+## Design decisions, historical reasons, technical constraints, implications, examples :warning:
+
+!!! warning
+    todo
+
+- human-readable
+- machine-readable
+- citation and citation-related metadata only
+  - explain "citation-related"
+- usability
+- tool support
+- pragmatic ("pessimistic") approach vs. "build it and they will come"
+- "bridge technology"
+- "on-ramp"
+- "interface format"
+- implications:
+  - duplicate information
+  - not "ground truth"
+  - maintenance
+  - chicken-egg
+- Some of the schema implementations have historic reasons (link to history): 
+  - Major version 1: "organically grown", therefore some things 
+    - that don't make sense (`commit`), 
+    - are duplicate/more than one way to do a thing (`doi`), 
+    - are weirdly named (`title` instead of `name`) -> from BibTeX
+    - are superfluous (complete list of BibTeX `type`s)
+  - `deprecated` in future versions
+
 ## Differences to other software metadata formats
 
 Differences between CFF and
+
+- cf. slide 9 on http://web.archive.org/web/20230609201824/https://ev.campussource.de/publikationen/csa2022/docs/cff.pdf
 
 - CodeMeta
 - .bib
