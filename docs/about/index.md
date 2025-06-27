@@ -70,7 +70,7 @@ users can use the metadata from this file to **cite the software correctly**!
     - are superfluous (complete list of BibTeX `type`s)
   - `deprecated` in future versions
 
-## Differences to other software metadata formats
+## Comparison with other software metadata formats
 
 Differences between CFF and
 
