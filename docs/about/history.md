@@ -18,18 +18,18 @@ These files should contain information about how to cite the respective software
 ## A standard format for `CITATION` files?
 
 Based on [Robin Wilson's previous work](#predecessors), [Stephan Druskat](https://orcid.org/0000-0003-4925-7248) proposed a
-standard format for `CITATION` files in a [lightning talk]((https://doi.org/10.6084/m9.figshare.3827058.v4)) at the [Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE5.1)](https://wssspe.researchcomputing.org.uk/wssspe5-1/)
+standard format for `CITATION` files in a [lightning talk](https://doi.org/10.6084/m9.figshare.3827058.v4) at the [Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE5.1)](https://wssspe.researchcomputing.org.uk/wssspe5-1/)
 on 06 September 2017 in Manchester, UK.
 The proposal was discussed further at the workshop, and the outcomes of the discussion published in a [blog post on the SSI blog](https://web.archive.org/web/20231123113500/https://www.software.ac.uk/blog/standard-format-citation-files). The discussion group defined **requirements for a standard format for `CITATION` files**, such as support for: human- and machine-readability, human-writability, a dedicated reference type for software, version identifiers, persistent identifiers, release dates, software authors and their [ORCiD](https://orcid.org/)s, references to the described software's dependencies and other works. Additionally, the format should be compatible with other metadata formats, and should support Unicode.
 
 Between the discussion at the workshop and the publication of the blog post on 12 December 2017,
-Stephan Druskat started specifying a format that would meet the discussed requirements on 19 September 2017, and published the **first draft of the Citation File Format** ([0.9-RC1](https://doi.org/10.5281/zenodo.1003150)) on 06 October 2017.
+Stephan Druskat started specifying a format that would meet the discussed requirements on 19 September 2017, and published the **first draft of the Citation File Format (CFF)** - [version 0.9-RC1](https://doi.org/10.5281/zenodo.1003150) - on 06 October 2017.
 
 ## Community work
 
 The first version of CFF was referenced in the [blog post](https://web.archive.org/web/20231123113500/https://www.software.ac.uk/blog/standard-format-citation-files)
 reporting the discussion mentioned above, as a suggested format that met the requirements for machine-readable `CITATION` files.
-To **build support for the format and a community**, CFF was presented and discussed at different in-person and online events[^1] in the US, the UK, Portugal, Germany and the Netherlands starting in late 2018.
+To **build support for the format and a community**, CFF was presented and discussed at different in-person and online events in the US, the UK, Portugal, Germany and the Netherlands starting in late 2018 (see [Publications](publications.md#presentations)).
 While some presentations were used for publicity, outreach and the gathering of initial feedback, other events included in-depth discussions that informed future versions of CFF.
 
 The **growing community** also continued working hands-on on the CFF format, schema and documentation, and on tooling that worked with CFF:
@@ -48,7 +48,7 @@ The [CodeMeta project](https://codemeta.github.io/), for example, provides a lin
 describe (research) software.
 As part of the community work, CFF was compared and contrasted with other formats
 in discussions with the community
-to assess its viability and usefulness for the research software community (for details, see the [FAQs](../documentation/faq.md)).
+to assess its viability and usefulness for the research software community (for details, see the [Background section comparing software metadata formats](index.md#comparison-with-other-software-metadata-formats), and the [FAQs](../documentation/faq.md)).
 
 As of late 2018, the Citation File Format project was maintained by Stephan Druskat.
 This changed during the [WSSSPE6.1](https://wssspe.researchcomputing.org.uk/wssspe6-1/) in Amsterdam (the Netherlands),
@@ -58,16 +58,17 @@ and the Netherlands eScience Center's [Research Software Directory](https://rese
 
 Together, Stephan and Jurriaan developed and released **CFF version [1.1.0](https://doi.org/10.5281/zenodo.4813122)** in May 2021.
 
-
-[^1]: Events at which the Citation File Format was presented, discussed or worked upon include the [Scientific Software Registry Collaboration Workshop](https://doi.org/10.6084/m9.figshare.10296917.v1) at the University of Maryland (USA), the ["Software Engineering and Reuse in Computational Science and Engineering" birds-of-a-feather session](https://doi.org/10.6084/m9.figshare.11276087.v1) at the ISC High Performance conference in Frankfurt/Main (Germany), a [meeting of the working group "Research Practice"](https://doi.org/10.6084/m9.figshare.9918653.v1) of the Alliance of Research Organisations in Bonn (Germany), a [Berlin Colloquium of Library Sciences](https://zenodo.org/doi/10.5281/zenodo.3876118) online, the [2018 Conference of Research Software Engineers](https://doi.org/10.6084/m9.figshare.7053698.v1) in Birmingham (UK), and a [dedicated hack day](https://www.software.ac.uk/blog/hacking-software-citation-implementation-citation-file-format-hack-day-rse18) co-locating with the conference, a [Faculty Day "Research Data"](https://zenodo.org/doi/10.5281/zenodo.1172281) at the faculty of language, literature and humanities at Humboldt-Universität zu Berlin in Berlin (Germany), the [2018 Collaborations Workshop](https://doi.org/10.6084/m9.figshare.6139406.v1) of the Software Sustainability Institute in Cardiff (UK), a [FORCE11 Software Citation Implementation Working Group hackathon](https://www.software.ac.uk/blog/hacking-future-software-citation) in Berlin (Germany), the [9th Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE6.1)](https://www.software.ac.uk/blog/credit-and-recognition-research-software-current-state-practice-and-outlook) during the IEEE eScience conference in Amsterdam (the Netherlands), and the [9th Brazil-Portugal Conference on Open Access](https://www.software.ac.uk/blog/9th-confoa-brazil-portugal-conference-open-access) in Lisbon (Portugal).
-
 ## A standard format for `CITATION` files for software!
 
-In late 2018, 
+While working on improvements in the schema towards [CFF version 1.2.0](https://doi.org/10.5281/zenodo.5171937), 
+Stephan, Jurriaan and Rob Haines (author of `ruby-cff`) were invited to collaborate with GitHub
+on their [support for software citation](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files).
+Together with Arfon Smith - lead author of the [software citation principles](https://doi.org/10.7717/peerj-cs.86),
+like Stephan also a member of the [FORCE11 Software Citation Implementation Working Group](https://force11.org/group/software-citation-implementation-working-group-3/), and then Director of Product at GitHub -
+they planned
 
-- Jurriaan becomes maintainer
-- 1.1.0
-- more community work
+:point_right: CONTINUE HERE
+
 - 1.2.0 (with JSON schema)
 - GitHub, Zotero, Zenodo, JabRef, IDEs
 - Rising number of files
