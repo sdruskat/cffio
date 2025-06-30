@@ -1,0 +1,16 @@
+[project]
+name = "cffio"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "markdown-include>=0.8.1",
+    "mkdocs>=1.6.1",
+    "mkdocs-embed-external-markdown>=3.0.2",
+    "mkdocs-get-deps>=0.2.0",
+    "mkdocs-glightbox>=0.4.0",
+    "mkdocs-material>=9.6.14",
+    "mkdocs-rss-plugin>=1.17.3",
+    "neoteroi-mkdocs>=1.1.2",
+]
