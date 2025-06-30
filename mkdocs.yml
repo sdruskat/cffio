@@ -9,7 +9,7 @@ nav:
     - Steering committee: about/governance/steering-committee.md
     - Code of Conduct: about/governance/code-of-conduct.md
     - Funding & support: about/funding.md
-    - History: about/history.md
+    - Timeline: about/timeline.md
     - Publications: about/publications.md
     - How to cite: about/how-to-cite.md
   - Documentation:
@@ -93,6 +93,12 @@ markdown_extensions:
   - footnotes
   - markdown_include.include:
         base_path: docs
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - neoteroi.timeline
 
 # hooks:
 #   - hooks/schema_version.py
@@ -111,3 +117,4 @@ extra:
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/timeline.css
