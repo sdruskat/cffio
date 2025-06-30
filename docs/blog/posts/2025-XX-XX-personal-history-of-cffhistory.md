@@ -1,12 +1,21 @@
 ---
+draft: true 
+
+date: 2025-07-01 
+
 authors:
-  - name: Stephan Druskat
+  - sdruskat
+
+categories:
+  - Blog
 ---
+
+# A personal history of the Citation File Format (2017-2025)
 
 !!! warning
     Draft incomplete
 
-# A brief history of the Citation File Format
+<!-- more -->
 
 ## Predecessors
 
