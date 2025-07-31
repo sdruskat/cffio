@@ -1,3 +1,6 @@
+!!! success
+    Draft complete
+
 ::timeline:: class="cff-timeline"
 
 - content: '- Blog post by [Robin Wilson](https://orcid.org/0000-0001-7352-8912): ["Introducing `CITATION` files"](https://web.archive.org/web/20231123110743/https://www.software.ac.uk/blog/encouraging-citation-software-introducing-citation-files)'
