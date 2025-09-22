@@ -65,6 +65,7 @@ theme:
     - navigation.footer
     - navigation.path
     - navigation.top
+    - content.code.copy
 
 plugins:
   - search
