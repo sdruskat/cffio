@@ -13,6 +13,6 @@ We recommend to start with one of the following.
 
 Copy and paste the example below into a file named `CITATION.cff`, place it in the root of your source code repository, and adapt the information to your software.
 
-{!_assets/simple-cff-example.md!}
+{!_assets/cff-simple-example.md!}
 
 To learn more about how to work with the Citation File Format, have a look at the available fields in the [schema guide](documentation/reference/index.md).
