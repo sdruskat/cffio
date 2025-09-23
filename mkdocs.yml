@@ -37,6 +37,7 @@ theme:
   name: material
   custom_dir: overrides
   logo: _assets/images/logo-white-circle.svg
+  favicon: _assets/images/logo-white-circle.svg
 
   palette:
 
