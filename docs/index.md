@@ -8,10 +8,12 @@ You can include `CITATION.cff` files in your repositories to let others know how
 
 <span id="example">The following is an example of a simple `CITATION.cff` file.</span>
 
+More examples can be found on the [Templates](templates/) page.
+
 {!_assets/cff-simple-example.md!}
 
-[Create your own `CITATION.cff` file](create){ .md-button .md-button--primary } 
-[Learn more](documentation/){ .md-button }
+[Create your own `CITATION.cff` file](create){ .md-button .md-button--primary }
+[Learn more about CFF](documentation/){ .md-button }
 
 <!-- Add after "Create" button once available on cffinit, add blank lines between buttons
 [Validate a `CITATION.cff` file](#){ .md-button .md-button--primary }  
