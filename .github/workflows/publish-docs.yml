@@ -13,7 +13,7 @@ jobs:
       # Configure a constant location for the uv cache
       UV_CACHE_DIR: /tmp/.uv-cache
 
-    name: python
+    # name: python
     runs-on: ubuntu-latest
 
     steps:
