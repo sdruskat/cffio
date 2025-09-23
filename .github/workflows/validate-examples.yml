@@ -23,13 +23,14 @@ jobs:
       - name: Validate example files
         run: |
             files=$(find ./docs/_assets/ -type f -name 'cff-*-example.md')
-            for file in $files; do
-            cat $file | head -n -1 | tail -n +2 > $file.cff
-            echo "Validating $file.cff"
-            uvx cffconvert --validate -i $file.cff || exit 1
+                for file in $files; do
+                cat $file | head -n -1 | tail -n +2 > $file.cff
+                echo "Validating $file.cff ..."
+                uvx cffconvert --validate -i $file.cff || exit 1
             done
             cfffiles=$(find ./docs/_assets/ -type f -name 'cff-*-example.md.cff')
             for cfffile in $cfffiles; do
-            rm $cfffile
+                echo "Deleting $cfffile ..."
+                rm $cfffile
             done
             echo "Done."
