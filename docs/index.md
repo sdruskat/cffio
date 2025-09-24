@@ -8,7 +8,7 @@ You can include `CITATION.cff` files in your repositories to let others know how
 
 <span id="example">The following is an example of a simple `CITATION.cff` file.</span>
 
-More examples can be found on the [Templates](templates/) page.
+You can find more examples on the [Templates](templates/) page.
 
 {!_assets/cff-simple-example.md!}
 
