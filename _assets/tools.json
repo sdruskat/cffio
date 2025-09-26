@@ -1,0 +1,10 @@
+[
+    {
+        "name": "cffinit",
+        "description": "Form-based web application to create valid CFF files.",
+        "author": "Jurriaan Spaaks, et al.",
+        "tasks": ["create"],
+        "languages": ["javascript"],
+        "repository_url": "https://github.com/citation-file-format/cff-initializer-javascript"
+    }
+]

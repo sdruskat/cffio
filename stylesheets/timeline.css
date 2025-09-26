@@ -1,0 +1,185 @@
+.cff-timeline .nt-timeline-item .cff-release {
+    background-color: rgba(1, 135, 73, 100);
+  }
+
+.cff-timeline .nt-timeline-item .cff-community {
+    background-color: rgba(94, 48, 140, 100);
+  }
+
+.cff-timeline .nt-timeline-item .cff-counter {
+    background-color: rgba(77, 77, 77, 100);
+  }
+
+.cff-timeline .nt-timeline-item .cff-other {
+    background-color: rgba(40, 40, 40, 40);
+  }
+
+
+/**
+ *  Extra CSS file for MkDocs and the neoteroi.timeline extension.
+ *
+ *  https://github.com/Neoteroi/mkdocs-plugins
+**/
+.nt-error {
+  border: 2px dashed darkred;
+  padding: 0 1rem;
+  background: #faf9ba;
+  color: darkred;
+}
+
+.nt-timeline {
+  margin-top: 30px;
+}
+.nt-timeline .nt-timeline-title {
+  font-size: 1.1rem;
+  margin-top: 0;
+}
+.nt-timeline .nt-timeline-sub-title {
+  margin-top: 0;
+}
+.nt-timeline .nt-timeline-content {
+  font-size: 0.8rem;
+  /* border-bottom: 2px dashed #ccc; */
+  padding-bottom: 1.2rem;
+}
+.nt-timeline.horizontal .nt-timeline-items {
+  flex-direction: row;
+  overflow-x: scroll;
+}
+.nt-timeline.horizontal .nt-timeline-items > div {
+  min-width: 400px;
+  margin-right: 50px;
+}
+.nt-timeline.horizontal.reverse .nt-timeline-items {
+  flex-direction: row-reverse;
+}
+.nt-timeline.horizontal .nt-timeline-dot.bigger {
+  top: calc(50% - 15px);
+}
+.nt-timeline.vertical .nt-timeline-items {
+  flex-direction: column;
+}
+.nt-timeline.vertical.left {
+  padding-left: 100px;
+}
+.nt-timeline.vertical.left .nt-timeline-item {
+  padding-left: 70px;
+}
+.nt-timeline.vertical.left .nt-timeline-sub-title {
+  left: -100px;
+  width: 100px;
+}
+.nt-timeline.vertical.left .nt-timeline-dot {
+  left: 21px;
+  top: 8px;
+}
+.nt-timeline.vertical.left .nt-timeline-dot.bigger {
+  top: 0px;
+  left: 10px;
+}
+.nt-timeline-items {
+  display: flex;
+  position: relative;
+}
+.nt-timeline-items > div {
+  min-height: 100px;
+  padding-top: 2px;
+  padding-bottom: 20px;
+}
+
+.nt-timeline-before {
+  content: "";
+  height: 15px;
+}
+
+.nt-timeline-after {
+  content: "";
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.nt-timeline-sub-title {
+  position: absolute;
+  width: 50%;
+  top: 4px;
+  font-size: 18px;
+  color: var(--nt-color-50);
+}
+
+[data-md-color-scheme=slate] .nt-timeline-sub-title {
+  color: var(--nt-color-51);
+}
+
+
+.nt-timeline.vertical.left .nt-timeline-before {
+    background: linear-gradient(rgba(30, 33, 41, 1) 0%, rgba(30, 33, 41, 1) 100%) no-repeat 30px/2px 100%;
+  }
+
+.nt-timeline.vertical.left .nt-timeline-after {
+    background: linear-gradient(rgba(30, 33, 41, 1) 0%, rgba(30, 33, 41, 1) 100%) no-repeat 30px/2px 100%;
+  }
+.nt-timeline.vertical.left .nt-timeline-items {
+    background: radial-gradient(circle, rgba(30, 33, 41, 1) 0%, rgba(30, 33, 41, 1) 100%) no-repeat 30px/2px 100%;
+  }
+
+[data-md-color-scheme=slate] .nt-timeline.vertical.left .nt-timeline-before {
+    background: linear-gradient(white 0%, white 100%) no-repeat 30px/2px 100%;
+  }
+[data-md-color-scheme=slate] .nt-timeline.vertical.left .nt-timeline-after {
+    background: linear-gradient(white 0%, white 100%) no-repeat 30px/2px 100%;
+  }
+[data-md-color-scheme=slate] .nt-timeline.vertical.left .nt-timeline-items {
+    background: radial-gradient(circle, white 0%, white 100%) no-repeat 30px/2px 100%;
+  }
+
+
+
+.nt-timeline-item {
+  position: relative;
+}
+
+
+.nt-timeline-dot {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #fc5b5b;
+  position: absolute;
+  top: 0px;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  border: 3px solid rgba(30, 33, 41, 1);
+}
+
+[data-md-color-scheme=slate] .nt-timeline-dot {
+    border: 3px solid white;
+  }
+.nt-timeline-dot:not(.bigger) .icon {
+  font-size: 10px;
+}
+.nt-timeline-dot.bigger {
+  width: 40px;
+  height: 40px;
+  padding: 3px;
+}
+.nt-timeline-dot .icon {
+  color: white;
+  position: relative;
+  top: 1px;
+}
+
+/* Fix for webkit (Chrome, Safari) */
+@supports not (-moz-appearance: none) {
+  /*
+  This fix is necessary, for some reason, to render the timeline properly
+  inside `details` elements used by pymdownx. Firefox doesn't need this fix,
+  it renders elements properly.
+  */
+  details .nt-timeline-dot.bigger {
+    font-size: 1rem !important;
+  }
+}
