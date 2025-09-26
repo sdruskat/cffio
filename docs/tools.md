@@ -40,3 +40,6 @@ These tools are contributed by the community in external projects.
 
 !!! warning
     TODO List integrations
+
+- Zenodo: https://help.zenodo.org/docs/github/describe-software/citation-file/
+- Software Heritage: https://www.softwareheritage.org/2025/05/07/software-heritage-citation-feature/
