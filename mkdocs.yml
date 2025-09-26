@@ -104,6 +104,7 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
   - neoteroi.timeline
+  - pymdownx.details
 
 # hooks:
 #   - hooks/schema_version.py

@@ -14,7 +14,13 @@ identifiers:
     description: "Resolves to ResearchSoftware v2.0.4 published on Zenodo"
   - type: swh
     value: swh:1:dir:4ef2302827801964c4211929149278ec52f52808
-    description: "Resolved to ResearchSoftware v2.0.4 archived on Software Heritage"
+    description: |
+      Resolves to ResearchSoftware v2.0.4 archived on Software Heritage
+  - type: doi
+    value: 10.5281/zenodo.1235
+    description: |
+      Resolves to the latest version of ResearchSoftware on Zenodo,
+      and all published versions of ResearchSoftware via the API
 keywords:
   - "research software"
   - "citation file format"
