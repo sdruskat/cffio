@@ -1,5 +1,5 @@
 !!! warning
-    Draft incomplete
+    Draft incomplete + TODO: Restructure as EDIT CFF FILES page
 
 # Create, edit, validate `CITATION.cff` files in your IDE
 
