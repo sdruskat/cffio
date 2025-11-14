@@ -26,10 +26,5 @@ There are different kinds of documentation for the Citation File Format (CFF).[^
 
 [Schema reference](reference){ .md-button .md-button--primary }
 
-## Background
-
-***Understand the Citation File Format*** through its aims, scope, history, assumptions, choices and concepts.
-
-[Understand the background of CFF](../about/){ .md-button .md-button--primary }
-
-[^1]: The documentation follows the Diátaxis approach to technical documentation. You can learn about this approach here: [diataxis.fr](https://diataxis.fr/).
+[^1]: The documentation follows the Diátaxis approach to technical documentation.
+You can learn about this approach here: [diataxis.fr](https://diataxis.fr/).
