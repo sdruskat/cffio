@@ -3,7 +3,6 @@ copyright: Copyright &copy; 2017 - 2023 The Citation File Format project
 
 nav:
   - About:
-    - Background: about/index.md
     - Project: about/project.md
     - Governance: about/governance/index.md
     - Steering committee: about/governance/steering-committee.md
