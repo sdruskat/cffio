@@ -13,12 +13,14 @@ nav:
     - How to cite: about/how-to-cite.md
   - Documentation:
     - Overview: documentation/index.md
-    - How-Tos:
+    - How-To Guides:
+      - Create CFF files: documentation/how-to/create-cff-files.md
+      - Validate CFF files: documentation/how-to/validate-cff-files.md
+      - Convert CFF files: documentation/how-to/convert-cff-files.md
+      - Edit CFF files: documentation/how-to/edit-cff-files.md
       - Overview: documentation/how-to/index.md
-      - Create a CFF file: documentation/how-to/create-a-cff-file.md
-      - Validate a CFF file: documentation/how-to/validate-a-cff-file.md
-      - Work on CFF in your IDE: documentation/how-to/use-ide.md
-    - FAQ: documentation/faq.md
+    - Reference:
+      - Schema reference: documentation/reference/index.md
   - Templates: templates.md
   # - Create a CFF file: create.md
   # - Validate your CFF file: validate.md
