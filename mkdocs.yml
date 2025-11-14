@@ -18,8 +18,6 @@ nav:
       - Create a CFF file: documentation/how-to/create-a-cff-file.md
       - Validate a CFF file: documentation/how-to/validate-a-cff-file.md
       - Work on CFF in your IDE: documentation/how-to/use-ide.md
-    - Tutorial:
-      - Learn CFF: documentation/tutorial/index.md
     - FAQ: documentation/faq.md
   - Templates: templates.md
   # - Create a CFF file: create.md
