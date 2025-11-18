@@ -12,10 +12,16 @@ nav:
     - Publications: about/publications.md
     - How to cite: about/how-to-cite.md
   - Documentation:
-    - Overview: documentation/index.md
+    # - Overview: documentation/index.md
     - How-To Guides:
-      - Create CFF files: documentation/how-to/create-cff-files.md
-      - Validate CFF files: documentation/how-to/validate-cff-files.md
+      - Create CFF files:  # documentation/how-to/create-cff-files.md
+        - Using a web form: documentation/how-to/create/cffinit.md
+        - Using templates: documentation/how-to/create/templates.md
+        - Using an IDE: documentation/how-to/create/ide.md
+        - Using GitHub: documentation/how-to/create/github.md
+      - Validate CFF files: # documentation/how-to/validate-cff-files.md
+        - Using the command line: documentation/how-to/validate/cffconvert.md
+        - Using Python: documentation/how-to/validate/python-jsonschema.md
       - Convert CFF files: documentation/how-to/convert-cff-files.md
       - Edit CFF files: documentation/how-to/edit-cff-files.md
       - Overview: documentation/how-to/index.md
@@ -31,6 +37,7 @@ nav:
   - Blog:
     - Blog: blog/index.md
     - <span class="md-status md-status--rss"/> RSS Feed: feed_rss_created.xml
+
 # Theme configuration
 theme:
   name: material
@@ -66,6 +73,7 @@ theme:
     - navigation.path
     - navigation.top
     - content.code.copy
+    - navigation.indexes
 
 plugins:
   - search
