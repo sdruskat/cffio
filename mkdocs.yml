@@ -13,7 +13,13 @@ nav:
     - How to cite: about/how-to-cite.md
   - Documentation:
     # - Overview: documentation/index.md
-    - How-To Guides:
+    - How-To:
+      - Use CFF to:
+        - Provide minimal metadata: documentation/how-to/use/simple.md
+        - Follow good practice: documentation/how-to/use/good-practice.md
+        - Cite your dependencies: documentation/how-to/use/cite-dependencies.md
+        - Cite other work: documentation/how-to/use/cite-other-work.md
+        - Let others cite a paper: documentation/how-to/use/preferred-citation.md
       - Create CFF files:  # documentation/how-to/create-cff-files.md
         - Using a web form: documentation/how-to/create/cffinit.md
         - Using templates: documentation/how-to/create/templates.md
@@ -27,7 +33,7 @@ nav:
       - Overview: documentation/how-to/index.md
     - Reference:
       - Schema reference: documentation/reference/index.md
-  - Templates: templates.md
+  - Examples: templates.md
   # - Create a CFF file: create.md
   # - Validate your CFF file: validate.md
   - Tools & integrations: tools.md

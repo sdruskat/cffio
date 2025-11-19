@@ -1,5 +1,5 @@
-!!! success
-    Draft complete
+!!! warning
+    Resolve into how-tos, let main page link directly to exactly these how-tos!
 
 Here are some example `CITATION.cff` files that show
 how to use the Citation File Format for different purposes.
