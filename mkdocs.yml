@@ -15,7 +15,7 @@ nav:
     # - Overview: documentation/index.md
     - How-To:
       - Use CFF to:
-        - Provide minimal metadata: documentation/how-to/use/simple.md
+        - Make software citable: documentation/how-to/use/make-software-citable.md
         - Follow good practice: documentation/how-to/use/good-practice.md
         - Cite your dependencies: documentation/how-to/use/cite-dependencies.md
         - Cite other work: documentation/how-to/use/cite-other-work.md

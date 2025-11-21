@@ -14,7 +14,7 @@ The following is an example of a simple `CITATION.cff` file.
 
 The Citation File Format enables you to
 
-- [follow good practice](documentation/how-to/use/good-practice.md) for software citation,
+- [make your software citable](documentation/how-to/use/make-software-citable.md),
 - [cite the dependencies](documentation/how-to/use/cite-dependencies.md) of your software,
 - [cite other work](documentation/how-to/use/cite-other-work.md) that your software builds on,
 - [ask people to cite a paper](documentation/how-to/use/preferred-citation.md) or other work, in addition to citing your software,
