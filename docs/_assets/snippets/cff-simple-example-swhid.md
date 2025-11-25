@@ -8,9 +8,9 @@ authors:
 title: "ResearchSoftware"
 version: 2.0.4
 identifiers:
-  - type: doi
-    value: 10.5281/zenodo.1234
-    description: "Resolves to ResearchSoftware v2.0.4 published on Zenodo"
+  - type: swh
+    value: swh:1:dir:4ef2302827801964c4211929149278ec52f52808
+    description: "The SWHID for the ResearchSoftware v2.0.4 release directory."
 date-released: 2021-08-11
 repository-code: https://git.example.org/research-software
 ```

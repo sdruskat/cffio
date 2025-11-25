@@ -28,8 +28,8 @@ nav:
       - Validate CFF files: # documentation/how-to/validate-cff-files.md
         - Using the command line: documentation/how-to/validate/cffconvert.md
         - Using Python: documentation/how-to/validate/python-jsonschema.md
-      - Convert CFF files: documentation/how-to/convert-cff-files.md
-      - Edit CFF files: documentation/how-to/edit-cff-files.md
+      - Convert CFF files: documentation/how-to/convert/cffconvert.md
+      - Edit CFF files: documentation/how-to/edit/ide.md
       - Overview: documentation/how-to/index.md
     - Reference:
       - Schema reference: documentation/reference/index.md

@@ -3,6 +3,9 @@
 
 # How-to guides
 
+!!! question
+    Do anything with this page? Ask for issues? List all how-tos?
+
 The how-to guides help you **achieve something specific** that you want to do with CFF.
 
 The following how-to guides are available:
