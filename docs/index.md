@@ -6,18 +6,25 @@
 The **Citation File Format (CFF)** is a format for plain text `CITATION.cff` files with human- and machine-readable **citation information for software** (and datasets).
 You can include `CITATION.cff` files in your repositories to let others know how to correctly cite your software.
 
-The following is an example of a simple `CITATION.cff` file.
+Getting started with the Citation File Format is easy:
+
+1. **Create a file** named `CITATION.cff` in the root directory of your source code repository.
+2. **Copy and paste** the example below into the file.
+3. **Replace the values** in the file with the metadata for your own software.
+4. **Update** the metadata for each new version you release.
+
 
 <!-- You can find more examples on the [Templates](templates/) page. -->
 
-{!_assets/cff-simple-example.md!}
+{!_assets/snippets/cff-simple-example.md!}
 
-The Citation File Format enables you to
+The Citation File Format not only helps you
+[make your software citable](documentation/how-to/use/make-software-citable.md).
+You can also use it to
 
-- [make your software citable](documentation/how-to/use/make-software-citable.md),
 - [cite the dependencies](documentation/how-to/use/cite-dependencies.md) of your software,
 - [cite other work](documentation/how-to/use/cite-other-work.md) that your software builds on,
-- [ask people to cite a paper](documentation/how-to/use/preferred-citation.md) or other work, in addition to citing your software,
+- [ask people to cite your paper](documentation/how-to/use/preferred-citation.md) or other work, in addition to citing your software,
 
 and [many other things](documentation/how-to/use/index.md).
 
