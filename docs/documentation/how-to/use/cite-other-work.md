@@ -1,3 +1,6 @@
+!!! success
+    Complete
+
 # How to use the Citation File Format to cite other work that your software builds on
 
 The Citation File Format lets you [make your software citable](make-software-citable.md).
